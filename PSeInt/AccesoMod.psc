@@ -12,7 +12,7 @@ Algoritmo AccesoMod
 	
 	// Lógica acceso
 	Mientras intentos < intentosv y pass <> "1234"
-		Escribir "Contraseña incorrecta, intentos restantes: " abs(intentos - intentosv)
+		Escribir "Contraseña incorrecta, intentos restantes: " intentosv-intentos
 		intentos=intentos+1
 		Escribir t1
 		Leer pass
