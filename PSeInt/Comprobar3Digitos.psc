@@ -2,13 +2,13 @@ Algoritmo Comprobar3Digitos
 	
 	Definir n Como Entero
 	
-	Escribir "Escribe tu número"
+	Escribir "Escribe tu nÃºmero"
 	Leer n
 	
 	si n <= 999 Y n > 99
-		Escribir "Tu número es de 3 dígitos"
+		Escribir "Tu nÃºmero es de 3 dÃ­gitos"
 	SiNo
-		Escribir "SUICIDATE MARICON"
+		Escribir "Tu nÃºmero no es de 3 dÃ­gitos"
 	FinSi
 	
 FinAlgoritmo
